@@ -4,25 +4,22 @@ using namespace std;
 int main() 
 { 
   int x;
-  char a;
+  char a[5];
   float b;
-  cout<<"Enter anything";
+  cout<<a[7];
+  /*cout<<"Enter anything";
   cin>>x;
   cin>>a;
-  cin>>b;
-  try
+  cin>>b;*/
+  /*
   {
-   if(x==0)
-      throw x;
-   if(x>0)
-      throw a;
-   else
-      throw b;
+   cout<<a[7];
   }
-  catch(int x)
+  catch(...)
   {
    cout<<"Catch for integer"<<endl;
   }
+  /*
   catch(char x)
   {
    cout<<"Catch for character"<<endl;
@@ -31,4 +28,5 @@ int main()
   {
    cout<<"Catch for float"<<endl;
   }
+  */
 } 
